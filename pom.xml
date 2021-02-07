@@ -6,7 +6,7 @@
 
   <groupId>com.progress</groupId>
   <artifactId>github_packages_example</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
 
   <name>github_packages_example</name>
   <!-- FIXME change it to the project's website -->
@@ -14,9 +14,17 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+  
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub saiteja8848 Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/saiteja8848/github_packages_example</url>
+   </repository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
